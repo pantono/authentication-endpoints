@@ -1,0 +1,26 @@
+{
+  "name": "pantono/authentication-endpoints",
+  "description": "Authentication Endpoints Module for Pantono",
+  "type": "library",
+  "require": {
+    "php": ">=8.2",
+    "pantono/core": "^1.0",
+    "pantono/authentication":"^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "10.3.4",
+    "phpstan/phpstan": "^1.10"
+  },
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "Pantono\\Authentication\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Chris Burton",
+      "email": "chris@chris-burton.co.uk"
+    }
+  ]
+}
